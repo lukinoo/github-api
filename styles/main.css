@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #2c3e50;
+}
+
+body form {
+  min-height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form input {
+  padding: 0.2rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 300;
+}
+
+body form input:focus {
+  outline: none;
+}
+
+body .container {
+  min-height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .container-box {
+  max-width: 600px;
+  min-height: 60vh;
+  width: 100%;
+  border-radius: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #a2aec2;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body .container .container-box .top-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0rem 3rem;
+}
+
+body .container .container-box .top-side .top-side-info h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body .container .container-box .top-side .top-side-info p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin: 0.5rem 0 0 0;
+}
+
+body .container .container-box .top-side .top-side-image {
+  width: 30%;
+}
+
+body .container .container-box .top-side .top-side-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .container .container-box .bottom-side-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0rem 3rem;
+}
+
+body .container .container-box .bottom-side-info .github-user-info {
+  font-weight: 300;
+}
+/*# sourceMappingURL=main.css.map */

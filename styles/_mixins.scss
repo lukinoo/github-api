@@ -1,0 +1,5 @@
+@mixin displayProperty($x, $y) {
+  display: flex;
+  justify-content: $y;
+  align-items: $x;
+}
